@@ -1,0 +1,33 @@
+.container{
+    max-width: 75%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 4vmax 8vmax;
+}
+.container h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.container >form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea,button{
+    margin: 10px 0;
+    padding: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.179);
+    border-radius: 9px;
+    font-size: 1.2rem;
+}
+button{
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #222;
+    transition:all 0.3s;
+}
+.container button:hover{
+ background-color: #333;
+}
